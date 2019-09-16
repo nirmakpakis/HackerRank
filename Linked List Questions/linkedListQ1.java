@@ -71,7 +71,6 @@ public class Solution {
         {
             atIndex++;
             currentNode = currentNode.next;
-            System.out.println(currentNode.data);
             if(atIndex == position)
             {
                 newNode.next = currentNode.next;
